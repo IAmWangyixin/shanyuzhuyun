@@ -8,8 +8,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '🏠 首页', link: '/index.md' },
-      { text: '👩🏻‍💻 关于我', link: '/about.md' },
+      { text: '🏠 首页', link: '/' },
+      { text: '👩🏻‍💻 关于我', link: '/docs/about.md' },
     ],
     sidebar: [
       {
@@ -17,7 +17,7 @@ export default defineConfig({
         items: [
           {
             text: '《复利》阅读笔记',
-            link: '/readingRoom/index.md',
+            link: '/docs/readingRoom/index.md',
           },
         ],
       },
@@ -26,19 +26,19 @@ export default defineConfig({
       copyright: '版权所有 © 2023-present 山雨竹韵',
     },
   },
-  // head: [
-  //   [
-  //     'script',
-  //     {
-  //       async: '',
-  //       src: 'https://hm.baidu.com/hm.js?ab1409dcf9087d7086bb89d6cc5657af',
-  //     },
-  //   ],
-  //   [
-  //     'script',
-  //     {},
-  //     `var _hmt = _hmt || [];
-  // `,
-  //   ],
-  // ],
+  head: [
+    [
+      'script',
+      {
+        async: '',
+        src: 'https://hm.baidu.com/hm.js?ab1409dcf9087d7086bb89d6cc5657af',
+      },
+    ],
+    [
+      'script',
+      {},
+      `var _hmt = _hmt || [];
+  `,
+    ],
+  ],
 });

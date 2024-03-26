@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: 阅微堂
-      link: /readingRoom/index.md
+      link: /docs/readingRoom/index.md
     - theme: alt
       text: 关于我
-      link: /about.md
+      link: /docs/about.md
 
 features:
   - icon: 🚵
